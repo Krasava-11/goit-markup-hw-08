@@ -1,0 +1,42 @@
+body {
+	background-color: #ffffff;
+	color: var(--primary-text-color);
+
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+ul,
+ol {
+	margin: 0;
+	padding-left: 0;
+}
+
+header {
+	border-bottom: 1px solid #ececec;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.list {
+	list-style-type: none;
+}

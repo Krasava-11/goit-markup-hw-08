@@ -1,0 +1,79 @@
+//*-----Іконки в Наша команда-----*//
+
+.socials {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding-bottom: 30px;
+}
+
+.socials__link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #afb1b8;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		color: var(--title);
+	}
+}
+
+.socials__icon {
+	fill: currentColor;
+}
+
+//*-----Іконки в Наша команда-----*//
+
+//*-----Іконки в футері-----*//
+
+.footer-socials-retreat {
+	margin-left: 70px;
+	margin-right: auto;
+}
+
+.footer-socials__title {
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	color: var(--title);
+
+	margin-bottom: 20px;
+	padding-top: 12px;
+}
+
+.footer-socials__list {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.footer-socials__link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--title);
+	background-color: rgba(255, 255, 255, 0.1);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+	}
+}
+
+.footer-socials__icon {
+	fill: currentColor;
+}
+
+//*-----Іконки в футері-----*//
