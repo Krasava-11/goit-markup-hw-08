@@ -8,19 +8,13 @@
 		flex-direction: column;
 		align-items: center;
 
-		// max-width: 480px;
-		width: 100%;
-
 		@include tablet {
-			// max-width: 768px;
-
 			flex-direction: row;
 			align-items: baseline;
 			flex-wrap: wrap;
 			justify-content: center;
 		}
 		@include desktop {
-			// max-width: 1200px;
 			flex-wrap: nowrap;
 		}
 	}
@@ -32,6 +26,7 @@
 	align-items: center;
 
 	@include desktop {
+		align-items: flex-start;
 	}
 }
 
@@ -102,6 +97,7 @@
 	}
 	@include desktop {
 		margin-left: 70px;
+		align-items: flex-start;
 	}
 }
 
@@ -119,6 +115,7 @@
 	@include desktop {
 		align-items: flex-start;
 		margin-left: auto;
+		width: 570px;
 	}
 }
 

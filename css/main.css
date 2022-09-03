@@ -1046,7 +1046,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .footer .container {
@@ -1067,6 +1066,12 @@ img {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-address {
+    align-items: flex-start;
+  }
+}
+
 .footer-contacts__list {
   display: flex;
   flex-direction: column;
@@ -1134,6 +1139,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-socials {
     margin-left: 70px;
+    align-items: flex-start;
   }
 }
 
@@ -1153,6 +1159,7 @@ img {
   .footer-form {
     align-items: flex-start;
     margin-left: auto;
+    width: 570px;
   }
 }
 
