@@ -1,6 +1,7 @@
 @import "./utils/variables";
 @import "./base/reset";
 @import "./utils/hidden";
+@import "./utils/mixins";
 
 @import "./components/logo";
 @import "./components/container";
@@ -10,6 +11,7 @@
 @import "./components/socials";
 
 @import "./layout/header";
+@import "./layout/mobile-menu";
 @import "./layout/hero";
 @import "./layout/benefits";
 @import "./layout/developments";
